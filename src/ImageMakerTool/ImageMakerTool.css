@@ -1,0 +1,84 @@
+#imgSelect{
+    width: 100px;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid rgb(255, 196, 0);
+  }
+
+.LabelImg{
+    margin: 10px;
+}
+
+.InputText{
+    width: 85%;
+}
+
+.canvas{
+    width: 85%;
+    max-width:500px;
+    margin-bottom: 15px;
+}
+
+.FotoSuperior{
+    width: 100%;
+    position: relative;
+}
+#textoSuperior{
+    width: 98%;
+    position: absolute;
+    z-index: 1;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 2px 4px black;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    
+}
+
+.FotoInferior{
+    width: 100%;
+    position: relative;
+}
+
+#textoInferior{
+    width:98%;
+    position: absolute;
+    z-index: 1;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 2px 4px black;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+#img1{
+    max-width: 100%;
+}
+
+#img2{
+    width: 100%;
+}
+
